@@ -11,6 +11,9 @@
     }
     
 }
+class Size{
+    String dimesion;
+}
 
 class Circle extends  Shape{
 
