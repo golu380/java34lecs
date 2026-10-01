@@ -21,6 +21,10 @@ public class ArrayListMain {
         students.add("cricket");
         students.add("java.");
 
+        for(String st : students){
+            System.err.println("by diff for loop" + st);
+        }
+
         // showing list
         System.out.println(students);
 
